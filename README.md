@@ -7,8 +7,11 @@ This project is a simple implementation of a chess scheduler in Haskell. It prov
 To visualize the chessboard, you can use the `visualizeBoard` function. For example:
 ```haskell
 putStrLn(visualizeBoard setBoard)
+```
 To suggest legal moves for a piece, you can use the suggestMove function, providing the piece and the current board as arguments. For example:
+```haskell
 suggestMove (P ('e', 2)) setBoard
+```
 
 ## Data Structures
 The following data structures are used in the project:
