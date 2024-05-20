@@ -10,7 +10,7 @@ putStrLn(visualizeBoard setBoard)
 ```
 To suggest legal moves for a piece, you can use the suggestMove function, providing the piece and the current board as arguments. For example:
 ```haskell
-suggestMove (P ('e', 2)) setBoard)
+suggestMove (P ('e', 2)), setBoard)
 ```
 
 ## Data Structures
